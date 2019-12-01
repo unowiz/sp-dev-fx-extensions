@@ -98,7 +98,7 @@ extra:
       framework: Javascript
       spfx: 1.9.1
       type: Application
-      author: Guillaume Sellier
+      author: Guillaume Sellier, Luis Valencia
       modifiedtext: August 29, 2019
       modified: 2019-08-29
     - name: js-application-dynamically-importing-styles
@@ -813,6 +813,7 @@ extra:
       - Jonas Bjerke Hansen
       - Jose Quinto
       - Luis Mañez
+      - Luis Valencia
       - Malathi Sekkappan
       - Martin Hatch
       - Matt Jimison
