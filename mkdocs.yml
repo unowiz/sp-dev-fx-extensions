@@ -1,0 +1,838 @@
+site_name: SharePoint Framework Client-Side Extension Samples
+theme: readthedocs
+plugins:
+    - search
+    - macros
+    - markdownextradata
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Using the Samples: gettingstarted/index.md
+  - Tutorials: 
+    - Tutorials: tutorials/index.md
+  - Samples:
+    - By Extension Type: samples/type.md
+    - By Framework: samples/framework.md
+    - By SPFx Version: samples/spfx.md
+    - By Year: samples/year.md
+    - By Author: samples/author.md
+    - By Keyword: samples/keyword.md
+    - All: samples/all.md
+  - Contributing:
+    - Contribution Guide: contributing/index.md
+    - Submitting an Issue or Suggestion: contributing/issues.md
+    - Forking?: contributing/forking.md
+    - Submitting a Pull Request: contributing/pullrequest.md
+theme:
+  name: 'material'
+  palette:
+    primary: 'teal'
+    accent: 'indigo'
+  logo: 'img/pnp-samples-white.svg'
+  feature:
+    tabs: true
+extra_css:
+  - 'css/extra.css'
+  - 'css/filter.css'
+  - 'https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/10.0.0/css/fabric.min.css'
+extra_javascript:
+  - 'https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js'
+  - 'https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js'
+  - 'javascript/filtersamples.js'
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+extra:
+  version: '1.0.0-0'
+  social:
+    - type: 'twitter'
+      link: 'https://twitter.com/officedevpnp'
+    - type: 'youtube'
+      link: 'https://www.youtube.com/playlist?list=PLR9nK3mnD-OXgMjDBdjWUTRia89oixBhx'
+    - type: 'link'
+      link: 'https://aka.ms/sppnp'
+  samples:
+    - name: jquery-application-toastr
+      title: Toastr Application Customizer
+      summary: Sample SharePoint Framework application customizer extension that shows toast notifications configured from a SharePoint list. Demonstrates jQuery module loading, barrel configuration, promise chaining, and localStorage caching.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/jquery-application-toastr/assets/spfxToastr-Preview.PNG
+      url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/jquery-application-toastr
+      framework: jQuery
+      spfx: 1.4.0
+      type: Application
+      author: Chris Kent
+      modifiedtext: February 1, 2018
+      modified: 2018-02-01
+    - name: jquery-field-itemorder
+      title: Item Order
+      summary: Sample SharePoint Framework field customizer extension that enables reordering of list items through intuitive drag and drop directly in your list view. Demonstrates the use of jQuery and jQuery UI, custom property JSON, and PnPJS Batching.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/jquery-field-itemorder/assets/spfxItemOrder-Animation.gif
+      thumbnailtype: video
+      url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/jquery-field-itemorder
+      framework: jQuery
+      spfx: 1.4.1
+      type: Field
+      author: Chris Kent
+      modifiedtext: October 10, 2019
+      modified: 2019-10-10
+    - name: js-application-analytics
+      url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/js-application-analytics
+      title: Google Analytics Application Customizer
+      summary: In this sample is possible to see how to implement Google Analytics through SPFx Extensions Application Customizers
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/js-application-analytics/assets/js-application-google-analytics.gif
+      thumbnailtype: video
+      framework: Javascript
+      spfx: 1.3.0
+      type: Application
+      author: Giuliano De Luca
+      modifiedtext: September 29, 2017
+      modified: 2017-09-29
+    - name: js-application-appinsights
+      url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/js-application-appinsights
+      title: Injecting Javascript with Sharepoint Framework Extensions - Azure Application Insights
+      summary: Sample SharePoint Framework extension project injecting Javascript code to enable Azure App Insights monitoring and statistics.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/js-application-appinsights/assets/appinsights-1.png
+      framework: Javascript
+      spfx: 1.9.1
+      type: Application
+      author: Guillaume Sellier
+      modifiedtext: August 29, 2019
+      modified: 2019-08-29
+    - name: js-application-dynamically-importing-styles
+      url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/js-application-dynamically-importing-styles
+      title: Optimize CSS/SCSS Style Bundling and Dynamic Loading of Styles
+      summary: This example illustrates how style files can be dynamically bundled into multiple .js bundle files and then be individually imported at runtime.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/js-application-dynamically-importing-styles/assets/DynamicImportingResultsInBrwoser.png
+      framework: Javascript
+      spfx: 1.7.1
+      type: Application
+      author: David Warner II
+      modifiedtext: January 21, 2019
+      modified: 2019-01-21
+    - name: js-application-graph-client
+      url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/js-application-graph-client
+      title: GraphClient from Modern Teamsite
+      summary: Simple example to call the Graph via the new GraphHttpClient (No ADAL) for getting the group title, mail, and description.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/js-application-graph-client/assets/screenshot.png
+      framework: Javascript
+      spfx: 1.1
+      type: Application
+      author: Simon Ågren
+      modifiedtext: June 9, 2017
+      modified: 2017-06-09
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/js-application-header-toggler
+      name: js-application-header-toggler
+      title: Site Header Toggler
+      summary: This application customizer adds a toggle button on all the Modern Pages which will toggle (show/hide) the Site Header, pulling the content to the top and giving more reading space for the users.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/js-application-header-toggler/assets/screenshot.gif
+      thumbnailtype: video
+      framework: Javascript
+      spfx: 1.9.1
+      type: Application
+      author: Ram Prasad Meenavalli
+      modifiedtext: September 19, 2019
+      modified: 2019-09-19
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/js-application-intranet-searchbox
+      name: js-application-intranet-searchbox
+      title: Intranet Search Box
+      summary: This demonstrates how to use an SPFx Application Customiser to inject an additional search box into the header of each page, which uses the "Search Settings" (at either the Site Collection or Sub-Site level) to determine the redirect page.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/js-application-intranet-searchbox/assets/IntranetSearchBox.gif
+      thumbnailtype: video
+      framework: Javascript
+      spfx: 1.8.0
+      type: Application
+      author: Martin Hatch
+      modifiedtext: May 16, 2019
+      modified: 2019-05-16
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/js-application-listdrivenplaceholders
+      name: js-application-listdrivenplaceholders
+      title: List-Driven Placeholders
+      summary: This solution deploys a list that allows end users to manage content that will appear in placeholders, via a SharePoint Framework application customizer extension.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/js-application-listdrivenplaceholders/assets/placeholders.jpg
+      framework: Javascript
+      spfx: 1.2.0
+      type: Application
+      author: Matt Jimison
+      modifiedtext: September 05, 2017
+      modified: 2017-09-05
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/js-application-run-once
+      name: js-application-run-once
+      title: Run Once SharePoint Framework application customizer
+      summary: Sample SharePoint Framework application customizer showing how you can run code once, and then remove the customizer at the end. The code as-is expects to be installed as a site scoped custom action.
+      thumbnail: 
+      framework: Javascript
+      spfx: 1.3.0
+      type: Application
+      author: Mikael Svenson
+      modifiedtext: October 10, 2017
+      modified: 2017-10-10
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/js-command-clone
+      name: js-command-clone
+      title: Clone ListView Command Set
+      summary: Sample SharePoint Framework listview command set extension that allows users to clone one or more list items. Demonstrates conditional visibility, PnPJS requests, PnPJS Batching, and field specific formats for rest operations.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/js-command-clone/assets/spfxClone-Animation.gif
+      thumbnailtype: video
+      framework: Javascript
+      spfx: 1.4.0
+      type: Command
+      author: Chris Kent
+      modifiedtext: May 27, 2019
+      modified: 2019-05-27
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/js-command-convert-to-pdf
+      name: js-command-convert-to-pdf
+      title: Convert documents to PDF using Azure function
+      summary: Sample SPFx list view command set extension that converts the selected documents to PDF using Microsoft Graph.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/js-command-convert-to-pdf/demo/convert-docs-to-pdf.gif
+      thumbnailtype: video
+      framework: Javascript
+      spfx: 1.6
+      type: Command
+      author: Anoop Tatti
+      modifiedtext: October 29, 2018
+      modified: 2018-10-29
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/js-command-copy-classic-link
+      name: js-command-copy-classic-link
+      title: Copy Classic Link Extension
+      summary: Sample SharePoint Framework list view command set extension that copies the classic link (path) of a selected item. Uses copy-to-clipboard library, toastr and sweet alert for notifications.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/js-command-copy-classic-link/demo/copy-classic-link.gif
+      thumbnailtype: video
+      framework: Javascript
+      spfx: 1.6
+      type: Command
+      author: Anoop Tatti
+      modifiedtext: October 11, 2018
+      modified: 2018-10-11
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/js-command-item-permissions
+      name: js-command-item-permissions
+      title: Unique Item Permissions Command Set Customizer
+      summary: The sample illustrates creation of a shortcut command to redirect user to selected item's permission page.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/js-command-item-permissions/assets/item-permissions.png
+      framework: Javascript
+      spfx: 1.3
+      type: Command
+      author: Alex Terentiev
+      modifiedtext: October 15, 2017
+      modified: 2017-10-15
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/js-command-lock-item
+      name: js-command-lock-item
+      title: Lock Item Command Set Customizer
+      summary: The sample illustrates the ability to lock/unlock selected item/document for the current user. The lock is implemented as item's unique permissions set to Full Control for current user only. The lock is available only for items that inherit permissions from the parent. Items with unique permissions can't be locked as we can't unlock them correctly later on. All other permissions are deleted. The Command is available only for users who have "Manage Permissions" permissions for the list/document library.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/js-command-lock-item/assets/lock-item.png
+      framework: Javascript
+      spfx: 1.4
+      type: Command
+      author: Alex Terentiev
+      modifiedtext: December 20, 2017
+      modified: 2017-12-20
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/js-command-selecteditems-export
+      name: js-command-selecteditems-export
+      title: Export Selected Items to Excel
+      summary: Exports selected items to excel spreadsheet in xlsx format, with the columns from the current modern list view.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/js-command-selecteditems-export/assets/excel-export-preview.png
+      framework: Javascript
+      spfx: 1.4.1
+      type: Command
+      author: Rajesh Sitaraman
+      modifiedtext: February 16, 2018
+      modified: 2018-02-16
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/js-field-conditionalformatting
+      name: js-field-conditionalformatting
+      title: Conditional formatting SharePoint Framework field customizer
+      summary: Sample SharePoint Framework field customizer that applies Excel-like conditional formatting to numeric fields based on their values.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/js-field-conditionalformatting/assets/conditionalformatting-preview.png
+      framework: Javascript
+      spfx: 1.1.1
+      type: Field
+      author: Waldek Mastykarz
+      modifiedtext: June 29, 2017
+      modified: 2017-06-29
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/js-field-taskpriority
+      name: js-field-taskpriority
+      title: Priority Field SharePoint Framework field customizer
+      summary: Sample SharePoint Framework field customizer that shows how to apply conditional color formatting to the values in a Priority field based on their value.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/js-field-taskpriority/assets/js-field-taskpriority-preview.jpg
+      framework: Javascript
+      spfx: 1.1.1
+      type: Field
+      author: Todd Baginski
+      modifiedtext: August 24, 2017
+      modified: 2017-08-24
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/js-field-weather
+      name: js-field-weather
+      title: Weather SharePoint Framework field customizer
+      summary: Sample SharePoint Framework field customizer showing weather conditions for the given location.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/js-field-weather/assets/weather-preview.png
+      framework: Javascript
+      spfx: 1.4
+      type: Field
+      author: Waldek Mastykarz
+      modifiedtext: January 20, 2018
+      modified: 2018-01-20
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/js-guest-message
+      name: js-guest-message
+      title: Guest Message
+      summary: SharePoint Application customizer that allow you to display a message to your External users.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/js-guest-message/assets/externalmessage.png
+      framework: Javascript
+      spfx: 1.9.1
+      type: Application
+      author: David Ramalho
+      modifiedtext: September 22, 2019
+      modified: 2019-09-22
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-aadtokenprovider-bot
+      name: react-aadtokenprovider-bot
+      title: AAD Token Provider Bot Extension
+      summary: This sample demonstrates how to integrate a bot within a SharePoint Online portal supporting authentication to access Azure AD protected APIs like Microsoft graph resources. Behind the scenes, this sample uses the AADTokenProvider utility class provided with SPFx > 1.6.0 to seamlessly get an access token for the current user and send it to the bot. This way, the user is not prompted anymore for login to interact with the bot, improving overall experience.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-aadtokenprovider-bot/images/react-aadtokenprovider-bot.gif
+      thumbnailtype: video
+      framework: React
+      spfx: 1.6.0
+      type: Application
+      author: Franck Cornu
+      modifiedtext: November 5th, 2018
+      modified: 2018-11-05
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-app-announcements
+      name: react-app-announcements
+      title: Announcements SharePoint Framework application customizer
+      summary: Sample SharePoint Framework application customizer showing urgent organizational announcements.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-app-announcements/assets/announcements-preview.png
+      framework: React
+      spfx: 1.1.1
+      type: Application
+      author: Waldek Mastykarz
+      modifiedtext: June 30, 2017
+      modified: 2017-06-30
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-application-breadcrumb
+      name: react-application-breadcrumb
+      title: Breadcrumb application customizer
+      summary: This sample shows how to create a breadcrumb element and append it to your site via the SharePoint Framework Application Customizer extension.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-application-breadcrumb/assets/breadcrumb-sample.png
+      framework: React
+      spfx: 1.2.0
+      type: Application
+      author: Elio Struyf
+      modifiedtext: August 31, 2017
+      modified: 2017-08-31
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-application-duetasks
+      name: react-application-duetasks
+      title: Overdue Tasks Application Customizer
+      summary: The sample illustrates how to display a warning message that current user has overdue tasks.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-application-duetasks/assets/app-customizer.png
+      framework: React
+      spfx: 1.4
+      type: Application
+      author: Alex Terentiev
+      modifiedtext: December 26, 2017
+      modified: 2017-12-26
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-application-festivals
+      name: react-application-festivals
+      title: Festivals Extension
+      summary: Sample SharePoint Framework application customizer adds a festival animation to the pages. At the moment this extension has capability of display 2 festivals (Christmas and Diwali) however, more can be added very easily.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-application-festivals/demo/festivals.gif
+      thumbnailtype: video
+      framework: React
+      spfx: 1.6
+      type: Application
+      author: Anoop Tatti
+      modifiedtext: December 05, 2018
+      modified: 2018-12-05
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-application-grouplinks
+      name: react-application-grouplinks
+      title: Groups external links
+      summary: This sample shows how to render a header navbar with some external links related to the Group the site is in, i.e Group calendar, Notebook, Inbox, People...
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-application-grouplinks/assets/react-application-grouplinks.jpg
+      framework: React
+      spfx: 1.4.1
+      type: Application
+      author: Luis Mañez
+      modifiedtext: February 16, 2018
+      modified: 2018-02-16
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-application-injectcss
+      name: react-application-injectcss
+      title: CSS Injection
+      summary: This sample shows how to inject a custom Cascading Style Sheet (CSS) on modern pages.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-application-injectcss/assets/sampleresults.png
+      framework: React
+      spfx: 1.8
+      type: Application
+      author: Hugo Bernier
+      modifiedtext: March 28, 2018
+      modified: 2018-03-28
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-application-logo-festoon
+      name: react-application-logo-festoon
+      title: Logo Festoon
+      summary: This simple SPFx extension can be used to decorate you SPO site logo with a festoon image of your choice. Keep users engaged by adding a personal touch to your site.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-application-logo-festoon/assets/festoon-shot.png
+      framework: React
+      spfx: 1.8.0
+      type: Application
+      author: Rabia Williams
+      modifiedtext: March 17, 2019
+      modified: 2019-03-17
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-application-myfavourites
+      name: react-application-myfavourites
+      title: My Favourites Application Customizer
+      summary: Sample SharePoint Framework application customizer extension that shows favourite links using office ui fabric panel. Fabric UI React components used include - panel, dialog, list and spinner.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-application-myfavourites/assets/spfx-myfavourites.gif
+      thumbnailtype: video
+      framework: React
+      spfx: 1.3.4
+      type: Application
+      author: Anoop Tatti
+      modifiedtext: November 29, 2017
+      modified: 2017-11-29
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-application-office-groups-nav
+      name: react-application-office-groups-nav
+      title: Modern Team Sites (Office Groups) Navigation
+      summary: The sample illustrates how to use AadHttpClient to request Groups information from Microsoft Graph
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-application-office-groups-nav/assets/office-groups-nav.png
+      framework: React
+      spfx: 1.4.1
+      type: Application
+      author: Alex Terentiev
+      modifiedtext: February 17, 2018
+      modified: 2018-02-17
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-application-page-comments-sentiment
+      name: react-application-page-comments-sentiment
+      title: Application Customiser sample using Text Analytics API
+      summary: This sample shows how to use the Text Analytics API (Cognitive Services) to render a rating icon based on the different comments in page.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-application-page-comments-sentiment/assets/react-application-page-comments-sentiment.png
+      framework: React
+      spfx: 1.5
+      type: Application
+      author: Luis Mañez
+      modifiedtext: August 1, 2018
+      modified: 2018-08-01
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-application-page-related-bing-news
+      name: react-application-page-related-bing-news
+      title: Application Customiser sample using Bing Search API
+      summary: This sample shows how to use the Bing Search API (Cognitive Services) to get news article related with the current page. That relation is set using the value of a specific Managed metadata field in the page.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-application-page-related-bing-news/assets/related-bing-news.png
+      framework: React
+      spfx: 1.9.1
+      type: Application
+      author: Luis Mañez
+      modifiedtext: October 25, 2019
+      modified: 2019-10-25
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-application-qna-chat
+      name: react-application-qna-chat
+      title: QnA Chatbot
+      summary: SPFx application extension that uses Azure QnA cognitive services to efficiently answer FAQs.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-application-qna-chat/assets/qnachatbot.png
+      framework: React
+      spfx: 1.4.1
+      type: Application
+      author: Rodrigo Silva
+      modifiedtext: February 23, 2017
+      modified: 2017-02-23
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-application-regions-footer
+      name: react-application-regions-footer
+      title: Regions Footer Application Customizer
+      summary: Sample SharePoint Framework application customizer showing how to create a custom footer for modern pages, in order to show data about an area manager for a specific region.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-application-regions-footer/assets/Regions-Footer.png
+      framework: React
+      spfx: 1.3
+      type: Application
+      author: Paolo Pialorsi
+      modifiedtext: September 28, 2017
+      modified: 2017-09-28
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-application-search-dynamicdata
+      name: react-application-search-dynamicdata
+      title: Connecting SPFx Extensions with Web Parts using Dynamic Data
+      summary: This example shows how to connect Spfx extensions with Spfx Webparts using Dynamic Data Feature
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-application-search-dynamicdata/assets/samplepnpExtensions.gif
+      thumbnailtype: video
+      framework: React
+      spfx: 1.5.0
+      type: Application
+      author: Adrián Díaz
+      modifiedtext: July 15, 2018
+      modified: 2018-07-15
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-application-sitepagecoremetadata
+      name: react-application-sitepagecoremetadata
+      title: Tenant Global NavBar
+      summary: Sample SharePoint Framework application customizer to display the core metadata of a Site Page such as Author,Editor, Created date and Modified date in the footer of the page.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-application-sitepagecoremetadata/assets/SitePageMetadataExtension.png
+      framework: React
+      spfx: 1.5
+      type: Application
+      author: Vipul Kelkar
+      modifiedtext: August 15, 2018
+      modified: 2018-08-15
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-application-sites-hubsite-switcher
+      name: react-application-sites-hubsite-switcher
+      title: Sites in Hub site switcher
+      summary: This sample shows how to get the sites that are part of a Hub Site, and renders a drop down to jump directly into a site. The customiser only renders if the site is a Hub site.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-application-sites-hubsite-switcher/assets/react-application-sites-hubsite-switcher.png
+      framework: React
+      spfx: 1.4.1
+      type: Application
+      author: Luis Mañez
+      modifiedtext: April 24, 2018
+      modified: 2018-04-24
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-application-team-archived-notification
+      name: react-application-team-archived-notification
+      title: Displaying notification if a team is set as archived
+      summary: This sample demonstrates how to check is current team linked to team site set as archived from Microsoft Graph API. If team is archived, notification is diplayed to end-user on header placeholder.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-application-team-archived-notification/assets/screenshot.png
+      framework: React
+      spfx: GA
+      type: Application
+      author: Matti Paukkonen
+      modifiedtext: January 2, 2019
+      modified: 2019-01-02
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-application-tenant-global-navbar
+      name: react-application-tenant-global-navbar
+      title: Tenant Global NavBar Application Customizer
+      summary: Sample SharePoint Framework application customizer showing how to create a tenant global NavBar and Footer NavBar for modern sites, reading menu items from the Term Store.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-application-tenant-global-navbar/assets/Tenant-Global-NavBar.png
+      framework: React
+      spfx: 1.3
+      type: Application
+      author: Paolo Pialorsi
+      modifiedtext: September 28, 2017
+      modified: 2017-09-28
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-application-webhooks-notification
+      name: react-application-webhooks-notification
+      title: Webhooks Notification Application Customizer
+      summary: Sample SharePoint Framework application customizer showing how to leverage the SharePoint webhooks capabilities, in order to show toast notifications. The libraries used by this solution are Socket.io, sp pnp js, moment.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-application-webhooks-notification/assets/spfx-react-webhooks-notification.gif
+      thumbnailtype: video
+      framework: React
+      spfx: 1.3
+      type: Application
+      author: Giuliano De Luca
+      modifiedtext: November 05, 2017
+      modified: 2017-11-05
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-command-custom-command-bar
+      name: react-command-custom-command-bar
+      title: Custom Command Bar Command Set Customizer
+      summary: The sample illustrates how to display custom Command Bar when Command Set Button is pressed.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-command-custom-command-bar/assets/command-bar.png
+      framework: React
+      spfx: 1.2.0
+      type: Command
+      author: Alex Terentiev
+      modifiedtext: August 29, 2017
+      modified: 2017-09-27
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-command-dialog
+      name: react-command-dialog
+      title: Custom Dialog Sample with Command View Set
+      summary: This sample shows how to create Custom Dialogs using @microsoft/sp-dialog package in the context of Command View Set. You can use also custom dialogs with client-side web parts or with any SharePoint Framework component types.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-command-dialog/assets/screenshot.png
+      framework: React
+      spfx: 1.2
+      type: Command
+      author: Malathi Sekkappan
+      modifiedtext: September 1, 2017
+      modified: 2019-09-01
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-command-direct-link
+      name: react-command-direct-link
+      title: Get a direct link to a document or folder
+      summary: Sample SharePoint Framework (SPFx) solution which gives the end-user the ability to just get a regular, simple link to a document or folder in the modern SharePoint document libraries. This is done using a CommandSet.
+      thumbnail: https://camo.githubusercontent.com/b65cbd290ecf800f79481174196e527ccb36aa15/68747470733a2f2f6a6f6e6173626a65726b652e66696c65732e776f726470726573732e636f6d2f323031392f30312f636f70796469726563746c696e6b2e706e673f773d343530
+      framework: React
+      spfx: 1.7.1
+      type: Command
+      author: Jonas Bjerke Hansen
+      modifiedtext: January 6, 2019
+      modified: 2019-01-06
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-command-directions
+      name: react-command-directions
+      title: Directions SharePoint Framework list view command set
+      summary: Sample SharePoint Framework list view command set showing travel directions to the given location using Google Maps.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-command-directions/assets/directions-preview.png
+      framework: React
+      spfx: 1.1.1
+      type: Command
+      author: Waldek Mastykarz
+      modifiedtext: June 29, 2017
+      modified: 2017-06-29
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-command-discuss-now
+      name: react-command-discuss-now
+      title: Discuss Now Command Set
+      summary: Sample SharePoint Framework command set showing how to create a new meeting to discuss about a document selected in the current list view of a document library.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-command-discuss-now/assets/Discuss-Now-Command-Set.png
+      framework: React
+      spfx: 1.4.1
+      type: Command
+      author: Paolo Pialorsi
+      modifiedtext: July 18, 2018
+      modified: 2018-07-18
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-command-file-size-viewer
+      name: react-command-file-size-viewer
+      title: File Size Viewer sample with Command View Set
+      summary: This sample shows how to create Command View Set working with single and multiple files selection. Once selected some files, it will show file sizes representation using a React D3 TreeMap component. This sample also shows how to integrate D3.js third party components within SharePoint Framework.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-command-file-size-viewer/assets/FileSizeViewer.gif
+      thumbnailtype: video
+      framework: React
+      spfx: 1.1
+      type: Command
+      author: Jose Quinto
+      modifiedtext: July 3, 2017
+      modified: 2017-07-03
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-command-form-settings
+      name: react-command-form-settings
+      title: Form Settings Command View Set
+      summary: This sample shows how you can redirect default SharePoint list forms (New,Edit,Display) to different pages.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-command-form-settings/assets/screenshot.gif
+      thumbnailtype: video
+      framework: React
+      spfx: 1.8
+      type: Command
+      author: Ramin Ahmadi
+      modifiedtext: June 30, 2019
+      modified: 2019-06-30
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-command-get-thumbnail
+      name: react-command-get-thumbnail
+      title: Get Thumbnail List Item Command View Set
+      summary: This Command Set uses Microsoft Graph API to get the Thumbnail URL, of selected size (small, medium, large), for any file stored in a SharePoint Document Library.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-command-get-thumbnail/assets/GetThumbnail.gif
+      thumbnailtype: video
+      framework: React
+      spfx: 1.9.1
+      type: Command
+      author: Aakash Bhardwaj
+      modifiedtext: October 25, 2019
+      modified: 2019-10-25
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-command-mail-view-as-image
+      name: react-command-mail-view-as-image
+      title: Mail Current View as Image
+      summary: Sample SharePoint Framework list view command set extension that emails the current view to selected (external or internal user) and also saves the same image in SharePoint. Uses html2canvas library, pnp spfx controls, pnp js and office fabric ui react.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-command-mail-view-as-image/demo/Mail_this_view.gif
+      thumbnailtype: video
+      framework: React
+      spfx: 1.6
+      type: Command
+      author: Anoop Tatti
+      modifiedtext: November 13, 2018
+      modified: 2018-11-13
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-command-page-model-pnpjs
+      name: react-command-page-model-pnpjs
+      title: Modern Page Model with PnP/PnPjs
+      summary: A SPFx extension using @pnp/sp that allow creating Modern Pages based on prefilled modern pages marked as "Page Model", inside the Site Pages Library, and code defined pages. Users can select a Modern page as Model just setting a custom property page named "Is Model" to "Yes". People often need to create periodically editorial pages with the same composition, sections structure and webpart configuration, in order to give users the same users experience between pages with different contents but with the same communicative purpose
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-command-page-model-pnpjs/assets/use-Modern-Page-Template-extension.gif
+      thumbnailtype: video
+      framework: React
+      spfx: 1.7.1
+      type: Command
+      author: Federico Porceddu
+      modifiedtext: March 23, 2019
+      modified: 2019-03-23
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-command-print
+      name: react-command-print
+      title: Print List Item Command View Set
+      summary: This sample shows how you can print list items using different templates, site admin can add, edit or remove templates and users can print items based on those templates.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-command-print/assets/screenshot.gif
+      thumbnailtype: video
+      framework: React
+      spfx: 1.7
+      type: Command
+      author: Ramin Ahmadi
+      modifiedtext: December 05, 2018
+      modified: 2018-12-05
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-command-qrcode
+      name: react-command-qrcode
+      title: Generate QR Code List Item Command View Set
+      summary: Generates a printable QR code which links to a SharePoint list item.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-command-qrcode/assets/QRCode.gif
+      thumbnailtype: video
+      framework: React
+      spfx: 1.9.1
+      type: Command
+      author: Hugo Bernier
+      modifiedtext: September 1, 2019
+      modified: 2019-09-01
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-command-share-pnpjs
+      name: react-command-share-pnpjs
+      title: Multishare Command Extension with PnPJs
+      summary: The sample is an custom action only active when multiple items are selected.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-command-share-pnpjs/assets/share.png
+      framework: React
+      spfx: 1.6
+      type: Command
+      author: Simon Ågren
+      modifiedtext: September 19, 2018
+      modified: 2018-09-19
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-command-singlepartapppage
+      name: react-command-singlepartapppage
+      title: configure a Page as Single App Part page
+      summary: Custom Command Set that set a Page layout to use the Single App Part page Layout
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-command-singlepartapppage/assets/demo.gif
+      thumbnailtype: video
+      framework: React
+      spfx: 1.7.1
+      type: Command
+      author: Luis Mañez
+      modifiedtext: January 29, 2019
+      modified: 2019-01-29
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-command-vision-api
+      name: react-command-vision-api
+      title: Image Metadata from Cognitive Services Vision API List View Command Set
+      summary: Custom Command Set that gets metadata information from MS Cognitive Services Vision API for the selected Image
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-command-vision-api/assets/react-command-vision-api.png
+      framework: React
+      spfx: 1.9.1
+      type: Command
+      author: Luis Mañez
+      modifiedtext: September 1, 2019
+      modified: 2019-09-01
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-field-slider
+      name: react-field-slider
+      title: Slider Field Customizer
+      summary: The sample illustrates how to use Office UI Fabric React Slider in Field Customizer with permissions-base inline editing
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-field-slider/assets/slider.png
+      framework: React
+      spfx: 1.2.0
+      type: Field
+      author: Alex Terentiev
+      modifiedtext: August 30, 2017
+      modified: 2017-08-30
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-field-text-analytics-api
+      name: react-field-text-analytics-api
+      title: Field Customiser sample using Text Analytics API
+      summary: This sample shows how to use the Text Analytics API (Cognitive Services) to render a sentiment icon based on the text of a field in the List. The language is also auto-detected using the API, so it works with text based in any language supported by the API.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-field-text-analytics-api/assets/react-field-text-analytics-api.png
+      framework: React
+      spfx: 1.4.0
+      type: Field
+      author: Luis Mañez
+      modifiedtext: January 18, 2018
+      modified: 2018-01-18
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-field-toggle
+      name: react-field-toggle
+      title: Toggle Field Customizer
+      summary: In this sample is possible to see how to implement Office UI Fabric React Toggle for the field yes/no through SPFx Extensions Field Customizers to modify in a quick way (inline editing) a list without opening the list item.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-field-toggle/assets/react-field-toggle.gif
+      thumbnailtype: video
+      framework: React
+      spfx: 1.3.0
+      type: Field
+      author: Giuliano De Luca
+      modifiedtext: October 04, 2017
+      modified: 2017-10-04
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-field-user-permission
+      name: react-field-user-permission
+      title: Displaying the current user permission with PNPJs
+      summary: This sample shows how to use PNPJs to get the current users permission on the specific list item. Then a corresponding icon and text is shown in the field. For this sample I'm using simplified roles, so the code is is only checking for edit or read permissions.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-field-user-permission/assets/react-field-user-permission.png
+      framework: React
+      spfx: 1.6
+      type: Field
+      author: Simon Ågren
+      modifiedtext: October 22, 2018
+      modified: 2018-10-12
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-hidefrom-externalusers
+      name: react-hidefrom-externalusers
+      title: Application Customizer Extension that is hidden from tenant guest users
+      summary: This sample shows how Application Customizer can be hidden from tenant external users. This is often the ask from the business when a SharePoint Framework App customizer or a web part has internal links that would be broken if a guest user attempts to access any or them.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-hidefrom-externalusers/assets/SharePoint-hidefrom-guest-user.gif
+      thumbnailtype: video
+      framework: React
+      spfx: 1.8.2
+      type: Application
+      author: Velin Georgiev
+      modifiedtext: June 21, 2019
+      modified: 2019-06-21
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-item-History
+      name: react-item-History
+      title: Item History
+      summary: This listview command is used to show the past versions of the selected list item in a grid.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-item-History/Capture.PNG
+      framework: React
+      spfx: 1.4.1
+      type: Command
+      author: Russell Gove
+      modifiedtext: June 15, 2018
+      modified: 2018-06-15
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-mega-menu
+      name: react-mega-menu
+      title: Mega Menu Application Customizer Extension
+      summary: This sample shows site mega menu. Application customizer is used along with SharePoint List to store the menu items.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-mega-menu/assets/menu.gif
+      framework: React
+      spfx: 1.7.0
+      type: Application
+      author: Velin Georgiev
+      modifiedtext: December 10, 2018
+      modified: 2018-12-10
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-menu-footer-classic-modern
+      name: react-menu-footer-classic-modern
+      title: Menu Footer Classic Modern
+      summary: This is a sample showing how to create custom headers and footers that work on classic pages using JavaScript injection, and on modern pages using a SharePoint Framework Application Customizer extension.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-menu-footer-classic-modern/Documentation/images/ClassicFullHeaderFooter.png
+      framework: React
+      spfx: 1.4.1
+      type: Application
+      author: Bob German
+      modifiedtext: April 4, 2018
+      modified: 2018-04-04
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-msal-bot
+      name: react-msal-bot
+      title: MSAL Bot Extension
+      summary: This sample demonstrates how to integrate a bot within a SharePoint Online portal supporting authentication to access Azure AD protected APIs like Microsoft graph resources. Behind the scenes, this sample implements the OAuth2 implicit grant flow using the MSAL JavaScript library.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-msal-bot/images/react-msal-bot.gif
+      thumbnailtype: video
+      framework: React
+      spfx: 1.5.1
+      type: Application
+      author: Franck Cornu
+      modifiedtext: August 4th, 2018
+      modified: 2018-08-04
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-send-document
+      name: react-send-document
+      title: Send Document With E-Mail
+      summary: This sample shows how to create Custom Dialogs using @microsoft/sp-dialog package in the context of Command View Set and send selected document with e-mail.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-send-document/assets/preview.PNG
+      framework: React
+      spfx: 1.7
+      type: Command
+      author: Serdar Ketenci
+      modifiedtext: February 10, 2019
+      modified: 2019-02-10
+
+  authors:
+      - Aakash Bhardwaj
+      - Adrián Díaz
+      - Alex Terentiev
+      - Anoop Tatti
+      - Bob German
+      - Chris Kent
+      - David Ramalho
+      - David Warner II
+      - Elio Struyf
+      - Federico Porceddu
+      - Franck Cornu
+      - Giuliano De Luca
+      - Giuliano De Luca
+      - Guillaume Sellier
+      - Hugo Bernier
+      - Jonas Bjerke Hansen
+      - Jose Quinto
+      - Luis Mañez
+      - Malathi Sekkappan
+      - Martin Hatch
+      - Matt Jimison
+      - Matti Paukkonen
+      - Mikael Svenson
+      - Paolo Pialorsi
+      - Rabia Williams
+      - Rajesh Sitaraman
+      - Ram Prasad Meenavalli
+      - Ramin Ahmadi
+      - Rodrigo Silva
+      - Russell Gove
+      - Serdar Ketenci
+      - Simon Ågren
+      - Todd Baginski
+      - Velin Georgiev
+      - Vipul Kelkar
+      - Waldek Mastykarz
+
+repo_url: https://github.com/SharePoint/sp-dev-fx-extensions
+edit_uri: tree/Docs/docs
+site_url: https://sharepoint.github.io/sp-dev-fx-extensions/
+site_favicon: favicon.ico

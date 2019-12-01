@@ -57,14 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
-# Visual Studio files
-.ntvs_analysis.dat
-.vs
-.vscode
-bin
-obj
-samples/react-application-grouplinks/src/restQueries/group.http
-samples/react-application-grouplinks/src/restQueries/teamsGroup.http
-samples/react-application-grouplinks/src/restQueries/yammerGroup.http
-samples/react-application-sites-hubsite-switcher/samplehubapidata.json
-samples/react-application-page-related-bing-news/private.README.md
+# mkdocs build folder
+site/
+/assets/images/favicon.png
