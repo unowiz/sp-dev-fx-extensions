@@ -1,3 +1,5 @@
+# SPFx Extensions
+# Master ID: 274
 site_name: SharePoint Framework Client-Side Extension Samples
 theme: readthedocs
 plugins:
@@ -55,6 +57,17 @@ extra:
     - type: 'link'
       link: 'https://aka.ms/sppnp'
   samples:
+    - name: react-application-botframework-chat
+      title: Bot Framework Chat App Customizer
+      summary: SPFx application extension that uses the Bot Framework React Webchat Component to render a Bot Framework chat window
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-application-botframework-chat/assets/bf_app_customizer01.png
+      url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-application-botframework-chat
+      framework: React
+      spfx: 1.9.1
+      type: Application
+      author: Stephan Bisser
+      modifiedtext: October 19, 2019
+      modified: 2019-10-19
     - name: jquery-application-toastr
       title: Toastr Application Customizer
       summary: Sample SharePoint Framework application customizer extension that shows toast notifications configured from a SharePoint list. Demonstrates jQuery module loading, barrel configuration, promise chaining, and localStorage caching.
@@ -828,6 +841,7 @@ extra:
       - Russell Gove
       - Serdar Ketenci
       - Simon Ågren
+      - Stephan Bisser
       - Todd Baginski
       - Velin Georgiev
       - Vipul Kelkar
