@@ -39,7 +39,7 @@ extra_css:
   - 'https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/10.0.0/css/fabric.min.css'
 extra_javascript:
   - 'https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js'
-  - 'https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js'
+  - 'javascript/isotope.pkgd.min.js'
   - 'javascript/filtersamples.js'
 markdown_extensions:
   - admonition
