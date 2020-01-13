@@ -1,5 +1,5 @@
 # SPFx Extensions
-# Master ID: 274
+# Master ID: Commit dd321a6
 site_name: SharePoint Framework Client-Side Extension Samples
 theme: readthedocs
 plugins:
@@ -57,6 +57,18 @@ extra:
     - type: 'link'
       link: 'https://aka.ms/sppnp'
   samples:
+    - name: react-command-folder-select
+      url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-command-folder-select
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-command-folder-select/assets/folderselect.gif
+      thumbnailtype: video
+      title: Folder Selection
+      summary: This extension creates a callout with a dropdown that allows users to select from a list of top level folders in a document library. After selecting the folder they can use the button to navigate to that folder.
+      framework: React
+      spfx: 1.9.1
+      type: Command
+      author: Zach Roberts
+      modifiedtext: January 3, 2020
+      modified: 2020-01-03
     - name: react-application-botframework-chat
       title: Bot Framework Chat App Customizer
       summary: SPFx application extension that uses the Bot Framework React Webchat Component to render a Bot Framework chat window
@@ -846,7 +858,7 @@ extra:
       - Velin Georgiev
       - Vipul Kelkar
       - Waldek Mastykarz
-
+      - Zach Roberts
 repo_url: https://github.com/SharePoint/sp-dev-fx-extensions
 edit_uri: tree/Docs/docs
 site_url: https://sharepoint.github.io/sp-dev-fx-extensions/
