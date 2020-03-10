@@ -1,5 +1,5 @@
 # SPFx Extensions
-# Master ID: Commit dd321a6
+# Master ID: Commit dd321a6d9e00acf1a7b9c7e836c5132da17efa85917b6a6
 site_name: SharePoint Framework Client-Side Extension Samples
 theme: readthedocs
 plugins:
@@ -57,6 +57,17 @@ extra:
     - type: 'link'
       link: 'https://aka.ms/sppnp'
   samples:
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-application-page-comments-sentiment
+      name: react-application-page-comments-sentiment
+      title: Application Customiser sample using Text Analytics API
+      summary: This sample shows how to use the Text Analytics API (Cognitive Services) to render a rating icon based on the different comments in page.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-application-page-comments-sentiment/assets/react-application-page-comments-sentiment.png
+      framework: React
+      spfx: 1.10.0
+      type: Application
+      author: Luis Mañez
+      modifiedtext: March 6, 2020
+      modified: 2020-03-06
     - name: react-command-folder-select
       url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-command-folder-select
       thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-command-folder-select/assets/folderselect.gif
@@ -420,17 +431,6 @@ extra:
       author: Alex Terentiev
       modifiedtext: February 17, 2018
       modified: 2018-02-17
-    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-application-page-comments-sentiment
-      name: react-application-page-comments-sentiment
-      title: Application Customiser sample using Text Analytics API
-      summary: This sample shows how to use the Text Analytics API (Cognitive Services) to render a rating icon based on the different comments in page.
-      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-application-page-comments-sentiment/assets/react-application-page-comments-sentiment.png
-      framework: React
-      spfx: 1.5
-      type: Application
-      author: Luis Mañez
-      modifiedtext: August 1, 2018
-      modified: 2018-08-01
     - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-application-page-related-bing-news
       name: react-application-page-related-bing-news
       title: Application Customiser sample using Bing Search API
