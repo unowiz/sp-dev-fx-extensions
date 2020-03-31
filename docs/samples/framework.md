@@ -1,6 +1,8 @@
-# Samples by Framework
+# Samples by JavaScript Framework
 
-You can build client-side web parts using the frameworks you're already familiar with. Use the filters below to find samples by framework.
+You can build client-side web parts using the frameworks you're already familiar with. Use the filters below to find samples by JavaScript framework.
+
+To learn more about how to use these samples, please refer to our [getting started](../gettingstarted/index.md) section.
 
  <div class="well">
   <div class="button-group filters-button-group">

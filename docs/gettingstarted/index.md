@@ -1,6 +1,10 @@
 # Getting Started
 
-This [repository](https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples) contains community samples that demonstrate different usage patterns for the SharePoint Framework client-side extensions.
+These samples were created by the PnP community. They demonstrate different usage patterns for the SharePoint Framework client-side extensions.
+
+The easiest way to get started with using these samples is to watch our video:
+[![Preview of getting started on consuming SharePoint development community sample solutions](http://img.youtube.com/vi/EH5voQlRd-4/0.jpg)](http://www.youtube.com/watch?v=EH5voQlRd-4 "Getting Started Using SPFx Samples")
+
 
 Each sample is located in it's own folder with a README.md file that provides details about what it demonstrates and any extra information to help you get the most out of it.
 

@@ -6,20 +6,24 @@ plugins:
     - search
     - macros
     - markdownextradata
+    - redirects:
+        redirect_maps:
+          'samples/type.md': '../index.md'
+          'samples/type': 'https://sharepoint.github.io/sp-dev-fx-extensions/'
 nav:
-  - Home: index.md
-  - Getting Started:
-    - Using the Samples: gettingstarted/index.md
-  - Tutorials: 
-    - Tutorials: tutorials/index.md
+  # - Home: index.md
   - Samples:
-    - By Extension Type: samples/type.md
+    - By Extension Type: index.md
     - By Framework: samples/framework.md
     - By SPFx Version: samples/spfx.md
     - By Year: samples/year.md
     - By Author: samples/author.md
     - By Keyword: samples/keyword.md
     - All: samples/all.md
+  - Getting Started:
+    - Using the Samples: gettingstarted/index.md
+  # - Tutorials: 
+  #   - Tutorials: tutorials/index.md
   - Contributing:
     - Contribution Guide: contributing/index.md
     - Submitting an Issue or Suggestion: contributing/issues.md
@@ -28,7 +32,7 @@ nav:
 theme:
   name: 'material'
   palette:
-    primary: 'teal'
+    primary: 'pnp'
     accent: 'indigo'
   logo: 'img/pnp-samples-white.svg'
   feature:
