@@ -1,6 +1,6 @@
 # Samples by Extension Type
 
-Filter the samples by type of extension.
+Filter the samples by type of [client-side extension](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/extensions/overview-extensions).
 
 To learn more about how to use these samples, please refer to our [getting started](./gettingstarted/index.md) section.
 
@@ -26,7 +26,7 @@ To learn more about how to use these samples, please refer to our [getting start
         href="{{sample.url}}"
         title="{{sample.title}}">
         <picture>
-          <img src="https://sharepoint.github.io/sp-dev-fx-extensions/img/thumbnails/sm/{{ sample.name }}.png" width="302" alt="{{sample.name}}" data-fullsize="{{sample.thumbnail}}" data-orig="https://sharepoint.github.io/sp-dev-fx-extensions/img/thumbnails/sm/{{ sample.name }}.png"/>
+          <img src="./img/thumbnails/sm/{{ sample.name }}.png" width="302" alt="{{sample.name}}" data-fullsize="{{sample.thumbnail}}" data-orig="./img/thumbnails/sm/{{ sample.name }}.png"/>
         </picture>
       </a>
     </div>

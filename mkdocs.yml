@@ -1,5 +1,5 @@
 # SPFx Extensions
-# Master ID: Commit dd321a6d9e00acf1a7b9c7e836c5132da17efa85917b6a6
+# Master ID: #296
 site_name: SharePoint Framework Client-Side Extension Samples
 theme: readthedocs
 plugins:
@@ -61,6 +61,28 @@ extra:
     - type: 'link'
       link: 'https://aka.ms/sppnp'
   samples:
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-jump-to-folder
+      name: react-jump-to-folder
+      title: Jump to folder extension
+      summary: Sample solution that facilitates navigation between large collections of SharePoint library folders.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-jump-to-folder/assets/jump-to-folder.gif
+      framework: React
+      spfx: 1.10.0
+      type: Command
+      author: Joel Rodrigues
+      modifiedtext: March 24, 2020
+      modified: 2020-03-24
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-field-attachment-info
+      name: react-field-attachment-info
+      title: Field Attachment Info
+      summary: This field customizer will display the attachment related information for a listitem.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-field-attachment-info/assets/react-field-attachment-info.png
+      framework: React
+      spfx: 1.10.0
+      type: Field
+      author: Sudharsan Kesavanarayanan
+      modifiedtext: April 2, 2020
+      modified: 2020-04-02
     - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-application-page-comments-sentiment
       name: react-application-page-comments-sentiment
       title: Application Customiser sample using Text Analytics API
@@ -858,6 +880,7 @@ extra:
       - Serdar Ketenci
       - Simon Ågren
       - Stephan Bisser
+      - Sudharsan Kesavanarayanan
       - Todd Baginski
       - Velin Georgiev
       - Vipul Kelkar
