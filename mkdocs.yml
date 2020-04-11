@@ -61,6 +61,17 @@ extra:
     - type: 'link'
       link: 'https://aka.ms/sppnp'
   samples:
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-application-machine-translations
+      name: react-application-machine-translations
+      title: Machine Translations
+      summary: This application customizer lets you translate the text on a SharePoint page using the Translator Text API of Microsoft Azure.
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/react-application-machine-translations/assets/sample.gif
+      framework: React
+      spfx: 1.10.0
+      type: Application
+      author: Robin Agten
+      modifiedtext: March 28, 2020
+      modified: 2020-03-28
     - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-jump-to-folder
       name: react-jump-to-folder
       title: Jump to folder extension
