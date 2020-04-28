@@ -61,6 +61,17 @@ extra:
     - type: 'link'
       link: 'https://aka.ms/sppnp'
   samples:
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/js-command-hide-commands
+      name: js-command-hide-commands
+      title: Hide Commands
+      summary: This command-set can be used to hide other 'out-of-the-box' commands on list views.
+      thumbnail: 
+      framework: Javascript
+      spfx: 1.10.0
+      type: Application
+      author: Russell Gove
+      modifiedtext: April 27, 2020
+      modified: 2020-04-27
     - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-application-machine-translations
       name: react-application-machine-translations
       title: Machine Translations
