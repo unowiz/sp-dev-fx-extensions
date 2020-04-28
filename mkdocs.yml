@@ -65,7 +65,7 @@ extra:
       name: js-command-hide-commands
       title: Hide Commands
       summary: This command-set can be used to hide other 'out-of-the-box' commands on list views.
-      thumbnail: 
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/js-command-hide-commands/CssSelector.PNG
       framework: Javascript
       spfx: 1.10.0
       type: Application
