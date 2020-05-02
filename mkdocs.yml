@@ -61,6 +61,17 @@ extra:
     - type: 'link'
       link: 'https://aka.ms/sppnp'
   samples:
+    - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/js-application-alert-message
+      name: js-application-alert-message
+      title: Application Alert Message
+      summary: This application customizer will display the alert message based on the items from the list. 
+      thumbnail: https://github.com/SharePoint/sp-dev-fx-extensions/raw/master/samples/js-application-alert-message/assets/GlobalAlerts.gif
+      framework: Javascript
+      spfx: 1.10.0
+      type: Application
+      author: Sudharsan Kesavanarayanan
+      modifiedtext: April 30, 2020
+      modified: 2020-04-30
     - url: https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/js-command-hide-commands
       name: js-command-hide-commands
       title: Hide Commands
