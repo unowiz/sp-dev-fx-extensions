@@ -61,6 +61,18 @@ extra:
     - type: 'link'
       link: 'https://aka.ms/sppnp'
   samples:
+    - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-application-festivals
+      name: react-application-festivals
+      title: Festivals Extension
+      summary: Sample SharePoint Framework application customizer adds a festival animation to the pages. At the moment this extension has capability of display 2 festivals (Christmas and Diwali) however, more can be added very easily.
+      thumbnail: https://github.com/pnp/sp-dev-fx-extensions/raw/master/samples/react-application-festivals/demo/festivals.gif
+      thumbnailtype: video
+      framework: React
+      spfx: 1.10.0
+      type: Application
+      author: Arjun U Menon
+      modifiedtext: May 19, 2020
+      modified: 2020-05-19
     - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/js-application-appinsights-advanced
       name: js-application-appinsights-advanced
       title: JS Application AppInsights Advanced
@@ -894,6 +906,7 @@ extra:
       - Adrián Díaz
       - Alex Terentiev
       - Anoop Tatti
+      - Arjun U Menon
       - Bob German
       - Chris Kent
       - David Ramalho
