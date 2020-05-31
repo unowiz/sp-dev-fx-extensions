@@ -61,6 +61,17 @@ extra:
     - type: 'link'
       link: 'https://aka.ms/sppnp'
   samples:
+    - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-application-announcements
+      name: react-application-announcements
+      title: Announcements SharePoint Framework Application Customizer
+      summary: SharePoint Framework application customizer displaying an information banner using office-fabric-ui MessageBar.
+      thumbnail: https://github.com/pnp/sp-dev-fx-extensions/raw/master/samples/react-application-announcements/assets/announcements-MUI.png
+      framework: React
+      spfx: 1.10.0
+      type: Application
+      author: Martin Cyr
+      modifiedtext: May 30, 2020
+      modified: 2020-05-30
     - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-application-festivals
       name: react-application-festivals
       title: Festivals Extension
@@ -923,6 +934,7 @@ extra:
       - Luis Mañez
       - Luis Valencia
       - Malathi Sekkappan
+      - Martin Cyr
       - Martin Hatch
       - Matt Jimison
       - Matti Paukkonen
