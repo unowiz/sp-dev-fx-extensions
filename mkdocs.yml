@@ -61,6 +61,28 @@ extra:
     - type: 'link'
       link: 'https://aka.ms/sppnp'
   samples:
+    - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-command-image-editor
+      name: react-command-image-editor
+      title: Image Editor Command Set
+      summary: This command set allows quick edit images located in Document Library. 
+      thumbnail: https://github.com/pnp/sp-dev-fx-extensions/raw/master/samples/react-command-image-editor/assets/Screenshot1.png
+      framework: React
+      spfx: 1.10.0
+      type: Command
+      author: João Mendes
+      modifiedtext: June 16, 2020
+      modified: 2020-06-16
+    - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-application-myfollowedsites
+      name: react-application-myfollowedsites
+      title: My Followed Sites Application Customizer
+      summary: Sample SharePoint Framework application customizer extension that shows current user followed sites across tenant using office ui fabric panel.
+      thumbnail: https://github.com/pnp/sp-dev-fx-extensions/raw/master/samples/react-application-myfollowedsites/assets/spfx-react-myFollowedSites.gif
+      framework: React
+      spfx: 1.10.0
+      type: Application
+      author: Rahul Suryawanshi
+      modifiedtext: June 12, 2020
+      modified: 2020-06-12
     - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-application-announcements
       name: react-application-announcements
       title: Announcements SharePoint Framework Application Customizer
@@ -929,6 +951,7 @@ extra:
       - Giuliano De Luca
       - Guillaume Sellier
       - Hugo Bernier
+      - João Mendes
       - Jonas Bjerke Hansen
       - Jose Quinto
       - Luis Mañez
@@ -941,6 +964,7 @@ extra:
       - Mikael Svenson
       - Paolo Pialorsi
       - Rabia Williams
+      - Rahul Suryawanshi
       - Rajesh Sitaraman
       - Ram Prasad Meenavalli
       - Ramin Ahmadi
