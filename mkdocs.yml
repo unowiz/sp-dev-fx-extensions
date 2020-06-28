@@ -61,6 +61,50 @@ extra:
     - type: 'link'
       link: 'https://aka.ms/sppnp'
   samples:
+    - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-application-portal-footer
+      name: react-application-portal-footer
+      title: Portal Footer Application Customizers
+      summary: This application customizer provides you the ability to include a footer designed for communiation sites.
+      thumbnail: https://github.com/pnp/sp-starter-kit/raw/master/assets/images/components/ext-portal-footer.gif
+      framework: React
+      spfx: 1.4.0
+      type: Application
+      author: Waldek Mastykarz, Paolo Pialorsi, David Opdendries
+      modifiedtext: Jan 12, 2019
+      modified: 2019-01-12
+    - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-application-collab-footer
+      name: react-application-collab-footer
+      title: Collaboration Footer Application Customizers
+      summary: This application customizer provides you the ability to include a footer designed for normal and group associated teams sites.
+      thumbnail: https://github.com/pnp/sp-starter-kit/raw/master/assets/images/components/ext-collab-footer.gif
+      framework: React
+      spfx: 1.4.0
+      type: Application
+      author: Paolo Pialorsi, David Opdendries
+      modifiedtext: Jan 1, 2020
+      modified: 2020-01-01
+    - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-application-alerts
+      name: react-application-alerts
+      title: Alerts Application Customizers
+      summary: This application customizer provides you the ability to show notifications on the pages in the top / header area.
+      thumbnail: https://github.com/pnp/sp-starter-kit/raw/master/assets/images/components/ext-alert.gif
+      framework: React
+      spfx: 1.4.0
+      type: Application
+      author: Waldek Mastykarz, Robert Schouten
+      modifiedtext: December 25, 2019
+      modified: 2019-12-25
+    - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/js-application-redirect
+      name: js-application-redirect
+      title: Redirect Application Customizers
+      summary: Redirect from URL based on mapping from a list on the site. Can be used to automatically redirect from pages to other locations.
+      thumbnail: https://github.com/pnp/sp-starter-kit/blob/master/assets/images/components/ext-redirects.gif?raw=true
+      framework: JavaScript
+      spfx: 1.4.0
+      type: Application
+      author: Paolo Pialorsi, Sébastien Levert
+      modifiedtext: December 29, 2019
+      modified: 2019-12-29
     - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-command-image-editor
       name: react-command-image-editor
       title: Image Editor Command Set
@@ -91,9 +135,9 @@ extra:
       framework: React
       spfx: 1.10.0
       type: Application
-      author: Martin Cyr
-      modifiedtext: May 30, 2020
-      modified: 2020-05-30
+      author: Martin Cyr, Mike Myers
+      modifiedtext: June 18, 2020
+      modified: 2020-06-18
     - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-application-festivals
       name: react-application-festivals
       title: Festivals Extension
@@ -942,6 +986,7 @@ extra:
       - Arjun U Menon
       - Bob German
       - Chris Kent
+      - David Opdendries
       - David Ramalho
       - David Warner II
       - Elio Struyf
@@ -962,14 +1007,17 @@ extra:
       - Matt Jimison
       - Matti Paukkonen
       - Mikael Svenson
+      - Mike Myers
       - Paolo Pialorsi
       - Rabia Williams
       - Rahul Suryawanshi
       - Rajesh Sitaraman
       - Ram Prasad Meenavalli
       - Ramin Ahmadi
+      - Robert Schouten
       - Rodrigo Silva
       - Russell Gove
+      - Sébastien Levert
       - Serdar Ketenci
       - Simon Ågren
       - Stephan Bisser
