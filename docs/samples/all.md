@@ -50,4 +50,6 @@ To learn more about how to use these samples, please refer to our [getting start
     </tbody>
 </table>
 
+Count: {{ samples|count }}
+
 <img src="https://telemetry.sharepointpnp.com/sp-dev-fx-webparts/docs/samples/all" />

@@ -61,6 +61,17 @@ extra:
     - type: 'link'
       link: 'https://aka.ms/sppnp'
   samples:
+    - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-field-pnp-field-renderer-helper
+      name: react-field-pnp-field-renderer-helper
+      title: PnP Field Renderer Helper      
+      summary: This field customizer shows how to use PnP FieldRendererHelper utility.
+      thumbnail: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-field-pnp-field-renderer-helper/assets/FieldRendererHelper.gif
+      framework: React
+      spfx: 1.11.0
+      type: Application
+      author: Alex Terentiev
+      modifiedtext: September 13, 2020
+      modified: 2020-09-13
     - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-application-portal-footer
       name: react-application-portal-footer
       title: Portal Footer Application Customizers
@@ -98,7 +109,7 @@ extra:
       name: js-application-redirect
       title: Redirect Application Customizers
       summary: Redirect from URL based on mapping from a list on the site. Can be used to automatically redirect from pages to other locations.
-      thumbnail: https://github.com/pnp/sp-starter-kit/blob/master/assets/images/components/ext-redirects.gif?raw=true
+      thumbnail: https://github.com/pnp/sp-starter-kit/raw/master/assets/images/components/ext-redirects.gif?raw=true
       framework: JavaScript
       spfx: 1.4.0
       type: Application
@@ -158,9 +169,9 @@ extra:
       framework: Javascript
       spfx: 1.10.0
       type: Application
-      author: Sudharsan Kesavanarayanan
-      modifiedtext: May 2, 2020
-      modified: 2020-05-02
+      author: Sudharsan Kesavanarayanan, Xiao Li
+      modifiedtext: Sept 23, 2020
+      modified: 2020-09-23
     - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/js-application-alert-message
       name: js-application-alert-message
       title: Application Alert Message
@@ -170,8 +181,8 @@ extra:
       spfx: 1.10.0
       type: Application
       author: Sudharsan Kesavanarayanan
-      modifiedtext: April 30, 2020
-      modified: 2020-04-30
+      modifiedtext: July 09, 2020
+      modified: 2020-07-09
     - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/js-command-hide-commands
       name: js-command-hide-commands
       title: Hide Commands
@@ -293,7 +304,7 @@ extra:
       framework: Javascript
       spfx: 1.9.1
       type: Application
-      author: Guillaume Sellier, Luis Valencia
+      author: Guillaume Sellier, Luis Valencia, Xiao Li
       modifiedtext: August 29, 2019
       modified: 2019-08-29
     - name: js-application-dynamically-importing-styles
@@ -522,18 +533,6 @@ extra:
       author: Alex Terentiev
       modifiedtext: December 26, 2017
       modified: 2017-12-26
-    - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-application-festivals
-      name: react-application-festivals
-      title: Festivals Extension
-      summary: Sample SharePoint Framework application customizer adds a festival animation to the pages. At the moment this extension has capability of display 2 festivals (Christmas and Diwali) however, more can be added very easily.
-      thumbnail: https://github.com/pnp/sp-dev-fx-extensions/raw/master/samples/react-application-festivals/demo/festivals.gif
-      thumbnailtype: video
-      framework: React
-      spfx: 1.6
-      type: Application
-      author: Anoop Tatti
-      modifiedtext: December 05, 2018
-      modified: 2018-12-05
     - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-application-grouplinks
       name: react-application-grouplinks
       title: Groups external links
@@ -1026,6 +1025,7 @@ extra:
       - Velin Georgiev
       - Vipul Kelkar
       - Waldek Mastykarz
+      - Xiao Li
       - Zach Roberts
 repo_url: https://github.com/pnp/sp-dev-fx-extensions
 edit_uri: tree/Docs/docs
