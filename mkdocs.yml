@@ -61,6 +61,18 @@ extra:
     - type: 'link'
       link: 'https://aka.ms/sppnp'
   samples:
+    - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-field-pnp-file-type-renderer
+      name: react-field-pnp-file-type-renderer
+      title: PnP File Type Renderer      
+      summary: This field customizer shows how to use PnP FieldFileTypeRenderer controls.
+      thumbnail: https://github.com/pnp/sp-dev-fx-extensions/raw/master/samples/react-field-pnp-file-type-renderer/assets/file-type-renderer.png
+      framework: React
+      spfx: 1.11.0
+      type: Field
+      author: Alex Terentiev
+      modifiedtext: October 1, 2020
+      modified: 2020-10-01
+      pnpcontrols: FieldFileTypeRenderer
     - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-field-pnp-field-renderer-helper
       name: react-field-pnp-field-renderer-helper
       title: PnP Field Renderer Helper      
@@ -68,10 +80,11 @@ extra:
       thumbnail: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-field-pnp-field-renderer-helper/assets/FieldRendererHelper.gif
       framework: React
       spfx: 1.11.0
-      type: Application
+      type: Field
       author: Alex Terentiev
       modifiedtext: September 13, 2020
       modified: 2020-09-13
+      pnpcontrols: FieldRendererHelper
     - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-application-portal-footer
       name: react-application-portal-footer
       title: Portal Footer Application Customizers
