@@ -302,13 +302,12 @@ extra:
       title: Google Analytics Application Customizer
       summary: In this sample is possible to see how to implement Google Analytics through SPFx Extensions Application Customizers
       thumbnail: https://github.com/pnp/sp-dev-fx-extensions/raw/master/samples/js-application-analytics/assets/js-application-google-analytics.gif
-      thumbnailtype: video
       framework: Javascript
-      spfx: 1.3.0
+      spfx: 1.11.0
       type: Application
-      author: Giuliano De Luca
-      modifiedtext: September 29, 2017
-      modified: 2017-09-29
+      author: Giuliano De Luca, Hugo Bernier
+      modifiedtext: October 7, 2020
+      modified: 2020-10-07
     - name: js-application-appinsights
       url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/js-application-appinsights
       title: Injecting Javascript with Sharepoint Framework Extensions - Azure Application Insights
@@ -530,11 +529,11 @@ extra:
       summary: This sample shows how to create a breadcrumb element and append it to your site via the SharePoint Framework Application Customizer extension.
       thumbnail: https://github.com/pnp/sp-dev-fx-extensions/raw/master/samples/react-application-breadcrumb/assets/breadcrumb-sample.png
       framework: React
-      spfx: 1.2.0
+      spfx: 1.11.0
       type: Application
-      author: Elio Struyf
-      modifiedtext: August 31, 2017
-      modified: 2017-08-31
+      author: Elio Struyf, Swaminathan Sriram
+      modifiedtext: October 3, 2020
+      modified: 2020-10-03
     - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-application-duetasks
       name: react-application-duetasks
       title: Overdue Tasks Application Customizer
@@ -1034,6 +1033,7 @@ extra:
       - Simon Ågren
       - Stephan Bisser
       - Sudharsan Kesavanarayanan
+      - Swaminathan Sriram
       - Todd Baginski
       - Velin Georgiev
       - Vipul Kelkar
