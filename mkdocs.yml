@@ -61,6 +61,18 @@ extra:
     - type: 'link'
       link: 'https://aka.ms/sppnp'
   samples:
+    - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-bot-framework-sso
+      name: react-bot-framework-sso
+      title: Bot Framework SSO      
+      summary: This sample will show you how to embed a Bot Framework bot into a SharePoint web site with SSO.
+      thumbnail: https://github.com/pnp/sp-dev-fx-extensions/raw/master/samples/react-bot-framework-sso/assets/sp-ex-sso.gif
+      framework: React
+      spfx: 1.10.0
+      type: Application
+      author: Qiong Wu
+      modifiedtext: November 10, 2020
+      modified: 2020-11-10
+      pnpcontrols: FieldFileTypeRenderer
     - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-field-pnp-file-type-renderer
       name: react-field-pnp-file-type-renderer
       title: PnP File Type Renderer      
@@ -1020,6 +1032,7 @@ extra:
       - Mikael Svenson
       - Mike Myers
       - Paolo Pialorsi
+      - Qiong Wu
       - Rabia Williams
       - Rahul Suryawanshi
       - Rajesh Sitaraman
