@@ -61,6 +61,17 @@ extra:
     - type: 'link'
       link: 'https://aka.ms/sppnp'
   samples:
+    - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-bot-framework-secure
+      name: react-bot-framework-secure
+      title: Bot Framework Secure
+      summary: This sample will show you how to embed a Bot Framework bot into a SharePoint web site with security consideration.
+      thumbnail: https://github.com/pnp/sp-dev-fx-extensions/raw/master/samples/react-bot-framework-secure/assets/sp-ex-secure.gif
+      framework: React
+      spfx: 1.9.1
+      type: Application
+      author: Qiong Wu
+      modifiedtext: November 10, 2020
+      modified: 2020-11-10
     - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-bot-framework-sso
       name: react-bot-framework-sso
       title: Bot Framework SSO      
