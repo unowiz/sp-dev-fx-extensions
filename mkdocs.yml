@@ -439,13 +439,12 @@ extra:
       title: Copy Classic Link Extension
       summary: Sample SharePoint Framework list view command set extension that copies the classic link (path) of a selected item. Uses copy-to-clipboard library, toastr and sweet alert for notifications.
       thumbnail: https://github.com/pnp/sp-dev-fx-extensions/raw/master/samples/js-command-copy-classic-link/demo/copy-classic-link.gif
-      thumbnailtype: video
       framework: Javascript
-      spfx: 1.6
+      spfx: 1.11
       type: Command
-      author: Anoop Tatti
-      modifiedtext: October 11, 2018
-      modified: 2018-10-11
+      author: Anoop Tatti, Aakash Bhardwaj
+      modifiedtext: January 3, 2021
+      modified: 2021-01-03
     - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/js-command-item-permissions
       name: js-command-item-permissions
       title: Unique Item Permissions Command Set Customizer
