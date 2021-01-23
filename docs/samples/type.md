@@ -44,4 +44,4 @@ Filter the samples by type of extension
     {% endfor %}
 </div>
 
-<img src="https://telemetry.sharepointpnp.com/sp-dev-fx-extensions/docs/samples/framework" />
+<img src="https://telemetry.sharepointpnp.com/sp-dev-fx-extensions/docs/samples/type" />

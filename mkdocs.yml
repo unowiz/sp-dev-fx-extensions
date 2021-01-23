@@ -35,6 +35,8 @@ theme:
     primary: 'pnp'
     accent: 'indigo'
   logo: 'img/pnp-samples-white.svg'
+  icon:
+  repo: 'fontawesome/brands/git-alt'
   feature:
     tabs: true
 extra_css:
@@ -54,13 +56,24 @@ markdown_extensions:
 extra:
   version: '1.0.0-0'
   social:
-    - type: 'twitter'
+    - icon: 'fontawesome/brands/twitter'
       link: 'https://twitter.com/officedevpnp'
-    - type: 'youtube'
+    - icon: 'fontawesome/brands/youtube'
       link: 'https://www.youtube.com/playlist?list=PLR9nK3mnD-OXgMjDBdjWUTRia89oixBhx'
-    - type: 'link'
+    - icon: 'fontawesome/solid/link'
       link: 'https://aka.ms/sppnp'
   samples:
+    - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-command-addfolders
+      name: react-command-addfolders
+      title: Add Folders Command
+      summary: Sample SharePoint Framework list view command set extension to create folders that can be all at the current location (parallel) or nested (one after another).
+      thumbnail: https://github.com/pnp/sp-dev-fx-extensions/raw/master/samples/react-command-addfolders/assets/preview.gif
+      framework: React
+      spfx: 1.11.0
+      type: Command
+      author: Michaël Maillot
+      modifiedtext: January 17, 2021
+      modified: 2021-01-17
     - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-bot-framework-secure
       name: react-bot-framework-secure
       title: Bot Framework Secure
@@ -1039,6 +1052,7 @@ extra:
       - Martin Hatch
       - Matt Jimison
       - Matti Paukkonen
+      - Michaël Maillot
       - Mikael Svenson
       - Mike Myers
       - Paolo Pialorsi
