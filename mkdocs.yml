@@ -252,8 +252,8 @@ extra:
       spfx: 1.10.0
       type: Application
       author: Robin Agten
-      modifiedtext: March 28, 2020
-      modified: 2020-03-28
+      modifiedtext: January 20, 2021
+      modified: 2021-01-20
     - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-jump-to-folder
       name: react-jump-to-folder
       title: Jump to folder extension
