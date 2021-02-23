@@ -63,6 +63,17 @@ extra:
     - icon: 'fontawesome/solid/link'
       link: 'https://aka.ms/sppnp'
   samples:
+    - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-command-demote-news
+      name: react-command-demote-news
+      title: Demote News to Page
+      summary: Sample SharePoint Framework list view command set extension to demote a previously promoted News page.
+      thumbnail: https://github.com/pnp/sp-dev-fx-extensions/raw/master/samples/react-command-demote-news/assets/preview.gif
+      framework: React
+      spfx: 1.11.0
+      type: Command
+      author: Mikael Svenson
+      modifiedtext: February 22, 2021
+      modified: 2021-02-22
     - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-command-addfolders
       name: react-command-addfolders
       title: Add Folders Command
