@@ -63,6 +63,17 @@ extra:
     - icon: 'fontawesome/solid/link'
       link: 'https://aka.ms/sppnp'
   samples:
+    - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-command-convert-to-pdf
+      name: react-command-convert-to-pdf
+      title: Save and convert as PDF by PnP
+      summary: A global list customizer which adds functionality to all document libraries in SharePoint Online to convert one or more documents in-place to PDF, or download one or more documents as a PDF. When selecting multiple documents for download they will be downloaded as a zip file. The converter uses built in API's of converting to PDF.
+      thumbnail: https://github.com/pnp/sp-dev-fx-extensions/raw/master/samples/react-command-convert-to-pdf/screenshot.gif
+      framework: React
+      spfx: 1.10.0
+      type: Command
+      author: Mikael Svenson
+      modifiedtext: February 23, 2021
+      modified: 2021-02-23
     - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-command-demote-news
       name: react-command-demote-news
       title: Demote News to Page
@@ -810,11 +821,11 @@ extra:
       thumbnail: https://github.com/pnp/sp-dev-fx-extensions/raw/master/samples/react-command-file-size-viewer/assets/FileSizeViewer.gif
       thumbnailtype: video
       framework: React
-      spfx: 1.1
+      spfx: 1.11
       type: Command
-      author: Jose Quinto
-      modifiedtext: July 3, 2017
-      modified: 2017-07-03
+      author: Jose Quinto, Sudharsan Kesavanarayanan
+      modifiedtext: February 28, 2021
+      modified: 2021-02-21
     - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-command-form-settings
       name: react-command-form-settings
       title: Form Settings Command View Set
