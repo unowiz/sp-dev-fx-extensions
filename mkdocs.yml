@@ -285,8 +285,8 @@ extra:
       spfx: 1.10.0
       type: Command
       author: Joel Rodrigues
-      modifiedtext: March 24, 2020
-      modified: 2020-03-24
+      modifiedtext: March 15, 2021
+      modified: 2021-03-15
     - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-field-attachment-info
       name: react-field-attachment-info
       title: Field Attachment Info
