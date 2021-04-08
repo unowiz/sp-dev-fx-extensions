@@ -63,6 +63,17 @@ extra:
     - icon: 'fontawesome/solid/link'
       link: 'https://aka.ms/sppnp'
   samples:
+    - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-send-to-teams
+      name: react-send-to-teams
+      title: Send-To-Teams - Command Set
+      summary: This Command Set allows to create an adaptive card based on list data and send to microsoft teams chanel, The user can select the list fields that will show on the card.
+      thumbnail: https://github.com/pnp/sp-dev-fx-extensions/raw/master/samples/react-send-to-teams/assets/SendToTeams.gif
+      framework: React
+      spfx: 1.11.0
+      type: Command
+      author: João Mendes
+      modifiedtext: April 5, 2021
+      modified: 2021-04-05
     - url: https://github.com/pnp/sp-dev-fx-extensions/tree/master/samples/react-command-convert-to-pdf
       name: react-command-convert-to-pdf
       title: Save and convert as PDF by PnP
