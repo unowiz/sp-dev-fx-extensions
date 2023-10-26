@@ -35,7 +35,7 @@
     "cheerio": "^1.0.0-rc.3",
     "jquery": "^3.4.1",
     "loadash": "^1.0.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "office-ui-fabric-react": "^7.103.0",
     "prettier": "^1.19.1",
     "react": "16.8.5",
